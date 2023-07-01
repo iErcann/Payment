@@ -1,9 +1,23 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import Product from "../components/Product.vue";
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+    <Product
+      price="1500"
+      title="iPhone 13"
+      description="Découvrez le dernier Smartphone de chez Apple"
+    />
+    <Product
+      price="1500"
+      title="iPhone 13"
+      description="Découvrez le dernier Smartphone de chez Apple"
+    />
+    <Product
+      price="1500"
+      title="iPhone 13"
+      description="Découvrez le dernier Smartphone de chez Apple"
+    />
+  </div>
 </template>
